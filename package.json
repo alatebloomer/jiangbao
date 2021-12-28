@@ -1,0 +1,11 @@
+{
+  "name": "linebot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "bryant_wang <bryant_wang@paradise-soft.com.tw>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "linebot": "^1.6.1"
+  }
+}
