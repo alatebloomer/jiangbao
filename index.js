@@ -10,8 +10,7 @@ var bot = linebot({
 });
 
 app.get('/linebot', (req, res) => {
-  console.log(req.query.id)
-  // bot.push('U54b713f0c785a0f73fa48d14a8405a36', 'this is a test')
+  bot.push('U54b713f0c785a0f73fa48d14a8405a36', req.query.id)
   res.send('ok')
 })
 
